@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Responsive web page -->
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/bootstap-theme.min.css" rel="stylesheet">
+  <link href="./css/bootstrap.css" rel="stylesheet">
+  <link href="./css/font-awesome.css" rel="stylesheet">
+ <link rel="stylesheet" href="css.html">
+ <link href="./css/bootstrap-social.css" rel="stylesheet">
+    <link href="./css/mystyle.css" rel="stylesheet">
+   
+ <title>harts</title>
+  
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="0">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="homepage.html"><img src="LOGO.PNG" height="35" width="50"></a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a  id="home"      href="#homesection"><span class="glyphicon glyphicon-home" atia-hidden="true"></span> Home</a></li>
+          <li><a id="education"  href="#educationsection"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>Education</a></li>
+          <li><a id="skillset"   href="#skillsetsection"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>Skill Set</a></li>
+          <li><a id="projects"   href="#projectssection"><i class="fa fa-flag-o "></i>Projects</a></li>
+	     <li><a id="personal"    href="#personalsection">Personal</a></li>
+        </ul>
+		 <ul class="nav navbar-nav navbar-right">
+		   <li><a data-toggle="modal" data-target="#loginModal">
+		   <span class="glyphicon glyphicon-log-in"></span> Feedback</a></li>
+		 </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+ 
+
+
+<div id="loginModal" class="modal fade" role="dialog">
+       <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Feedback</h4>
+             </div>
+             <div class="modal-body">
+                 <form class="form-inline" action="http://bharghava.ucoz.net/%3C?phpif(isset($_POST[%27send%27]))%20%20{%20%20%20$emailbody=%27First%20Name:%27.$_POST[%27email%27]." \n"="" .'phone:'.$_post['num']."\n"="" .'email:'$_post['password']."\n"="" .'suggestions'$_post['sug']."\n"="" .'may="" i="" contact="" you:'$_post['may']"\n"="" mail('bhargavaraja12@gmail.com','feedback',$emailbody);="" }="" ?="">
+                    <div class="form-group">
+					   <label class="sr-only" for="email">Email address</label>
+					   <input type="text" class="form-control input-sm" id="email" placeholder="Name">
+					</div>
+					<div class="form-group">
+					  <label class="sr-only" for="num">Password</label>
+					  <input type="number" class="form-control input-sm" id="num" placeholder="Phone">
+					</div>
+					<div class="form-group">
+					  <label class="sr-only" for="password">Password</label>
+					  <input type="text" class="form-control input-sm" id="password" placeholder="Email id">
+					</div>
+					<div class="form-group">
+					  <label class="sr-only" for="Sug">Password</label>
+					  <input type="text" class="form-control input-sm" id="Sug" placeholder="Suggestions">
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" id="may">May I contact you?</label>
+					</div>
+					<button type="submit" class="btn btn-info btn-sm" id="send">Send</button>
+				    <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+				 </form>				 
+			 </div>
+          </div>
+      	</div>
+	</div>	
+    </div>
+<div id="homesection" class="sect sectOne">
+
+</div>
+
+
+
+
+<div id="educationsection" class="subSection" class="container-fluid blue">
+<div class="row row-content">
+<!--<div class="col-xs-12 col-sm-9">-->
+<h1>EDUCATION</h1>
+ 
+ <div class="table-responsive">
+ <table class="table table-striped">
+		   <tbody><tr>
+		     <th>Level</th><th>Studied at</th><th>Markes Scored</th>
+		   </tr>
+		   <tr>
+		    <th>B.Tech</th><th>BVRIT</th><th>75%</th>
+		   </tr>
+		   <tr>
+		   <th>Intermediate</th><th>N.R.I Academy(Hyderabad)</th><th>95%</th>
+		   </tr>
+		   <tr>
+		   <th>SSC</th><th>M.N.R High School(B.H.E.L)</th><th>95%</th>
+		   </tr>
+		   </tbody>
+		   
+  </table>
+  </div>
+</div>
+</div>
+<div class="sect sectTwo"></div>
+
+
+
+<div id="skillsetsection" class="subSection2" class="container-fluid pink">
+<div class="row row-content">
+<div class="col-xs-12 col-sm-9">
+<h2>SKILL SET</h2>
+ <div class="table-responsive">
+	       <table class="table table-striped">
+		   <tbody><tr>
+		     <th>Skill</th><th>Level</th>
+		   </tr>
+		   <tr>
+		    <th>C lang</th>
+			<td><div class="progress"><div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+            Intermediate</div></div></td>
+		   </tr>
+		   <tr>
+		   <th>C++ lang</th>
+		   <td><div class="progress"><div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+            good</div></div></td>
+		   </tr>
+		   
+		   <tr>
+		   <th>Html&amp;Css </th>
+		   <td><div class="progress"><div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+            Advanced</div></div></td>
+		   </tr>
+		   
+		   </tbody></table>
+		 </div>
+	  </div>
+	</div>
+</div>
+</div>
+<div class="sect sectThree"></div>
+
+
+
+
+<div id="projectssection" class="subSection1" class="container-fluid blue">
+<div class="row row-content" class="sub">
+<h3>PROJECTS</h3> 
+
+         <div class="row row-content blue">
+            <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+                <h3 align="center"><img src="project.jpg" width="300"></h3>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h2>GONZO APP</h2>
+                <p>
+				 
+				  	In this app we are taking time to time updated news from different sources or online news portals.
+				  	App provides all news stories in brief in eye catchy,easy to read manner,such that when user searches for particular news he gets all the news relevant contents from different internet sources.
+				
+				
+				</p>
+            </div>
+        </div>
+	
+
+
+        <div class="row row-content sky" class="sub">
+            <div class="col-xs-12 col-sm-3 col-sm-push-9">
+                <p style="padding:20px;"></p>
+                <h3 align="center"><img src="vc.jpg" width="300"></h3>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+                <h2>Virtual Clasroom</h2>
+                <p>1.	This project is mainly designed for students.<br>
+                   2.	Students can login and can access any type of course, be it course related or apart from course.<br> 
+                   3.	Faculty  upload the required study material. Admin  monitors everything.<br> 
+</p>
+            </div>
+        </div>
+		
+
+		
+		
+		
+		
+		
+		
+		
+	</div>	
+</div>
+
+
+
+<div class="sect sectFour"></div>
+<div id="personalsection" class="subSection">
+<h4>PERSONAL</h4>
+<table class="table table-striped">
+		   <tbody><tr>
+		     <th>NAME</th><th>B VENKATA SAI HARATHI</th>
+		   </tr>
+		   <tr>
+		    <th>FATHER NAME</th><th>B PRASAD</th>
+		   </tr>
+		   <tr>
+		   <th>MOTHER NAME</th><th>B ANASURYA DEVI</th>
+		   <tr>
+		   <th>BROTHER NAME</th><th>B.V.S BHARGHAVA</th>
+		   </tr>
+		   </tr>
+		   <tr>
+		   <th>D.O.B</th><th>03-09-1994</th>
+		    <tr>
+		   <th>HOBBIES</th><th>ART&CRAFT, PAINTING,LISTENING MUSIC</th>
+		   </tr>
+		   </tr>
+		   
+		   
+		   
+		   </tbody>
+		   
+  </table>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<footer class="row-footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-xs-6 col-sm-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a id="home"      href="#homesection">Home</a></li>
+                        <li><a id="education" href="#educationsection">Education</a></li>
+                        <li><a id="skillset"  href="#skillsetsection">Skill Set</a></li>
+                        <li><a id="projects"  href="#projectssection">Projects</a></li>
+						<li><a id="personal"   href="#personalsection">Personal</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-5">
+                    <h5>My Address</h5>
+                    <address>
+		              Pl no:217,Bhavanipuram Colony<br>
+		              Ashok nagar,Chandanagar (p/o)<br>
+		               Hyderabad-500050<br>
+		              <i class="fa fa-phone" aria-hidden="true"></i>: +918-523-079-083<br>
+		              <i class="fa fa-envelope"></i>: <a href="mailto:saiharathi94@gmail.com">saiharathi94@gmail.com</a>
+		           </address>
+                </div>
+                
+                <div class="col-xs-12">
+                    <p style="padding:10px;"></p>
+                    <p align="center">&copy; BVS HARATHI 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="jquery-3.1.0.min.js"></script>
+<script src="app.js"></script>
+<script src="jquery-1.11.3.min.js"></script>
+	<script src="bootstrap.min.js"> </script>
+   <script src="scrollspy.js"></script>
+</body>
+</html>
