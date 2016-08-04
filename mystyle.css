@@ -1,0 +1,122 @@
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+.row-content{
+  margin:0px auto;
+  padding:50px 0px 50px 0px;
+  border-bottom:1px ridge;
+max-height:500px;
+}
+
+.blue{
+ background:#f7941d;
+ color:white;
+ min-height:400px;
+}
+
+.sky{
+background:#ed1c24;
+color:white;
+max-height:600px;
+}
+
+.Gren{
+background:#00a800;
+color:white;
+}
+.row-footer{
+ background:#f26d7d;
+ margin:0px auto;
+ padding:20px 0px 20px 0px;
+}
+
+.jumbotron{
+ padding:70px 30px 70px 30px;
+ margin:0px auto;
+ background:#0072bc;
+ color:white;
+}
+
+
+
+address{
+ color:#0f0f0f;
+}
+
+body{
+ align:center;
+ padding:50px 0px 0px 0px;
+ z-index:0;
+}
+
+.navbar-default{
+ background:#00bff3;
+ color:#ffffff;
+}
+
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  
+ .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+
+.red
+{
+ background:#f44336;
+ color:#000;
+}  
+
+.violet
+{
+  background:#673ab7;
+}
+
+.green
+{
+  background:#00bcd4;
+}
+.navbar-default .navbar-nav> .active > a,
+.navbar-default .navbar-nav> .active > a:hover,
+.navbar-default .navbar-nav> .active > a:focus {
+  color:#fff;
+  background:#e85835;
+ }
+ 
+ .navbar-default .navbar-nav> .open > a,
+.navbar-default .navbar-nav> .open > a:hover,
+.navbar-default .navbar-nav> .open > a:focus {
+  color:#fff;
+  background:#e85835;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu> li>a,
+.navbar-default .navbar-nav .open .dropdown-menu{
+  background:#e85835;
+  color:#eeeeee;
+}
+
+
+.navbar-default .navbar-nav .open .dropdown-menu> li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu{
+  
+ color:#000;
+}
+
+.tab-content{
+  border-left:1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding:10px;
+  min-height:200px;
+ 
+}
+
+.affix{
+ top:0px;
+}
