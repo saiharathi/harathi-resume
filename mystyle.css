@@ -102,7 +102,7 @@ body{
 }
 
 .sectOne{
- background-image: url("http://bharghava.ucoz.net/harathi/harts1.jpeg") ;
+ background-image: url(harts1.jpeg) ;
 }
 .sectTwo{
 background-image: url("http://bharghava.ucoz.net/harathi/harts2.jpg");
