@@ -101,6 +101,17 @@ body{
   color:#eeeeee;
 }
 
+.sectOne{
+ background-image: url("http://bharghava.ucoz.net/harathi/harts1.jpeg") ;
+}
+.sectTwo{
+background-image: url("http://bharghava.ucoz.net/harathi/harts2.jpg");
+}
+.sectThree{
+  background-image: url("http://bharghava.ucoz.net/harathi/harts3.jpg");
+}
+
+
 
 .navbar-default .navbar-nav .open .dropdown-menu> li>a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu{
